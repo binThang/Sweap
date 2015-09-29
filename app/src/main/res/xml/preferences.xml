@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="분류대상">
+        <Preference
+            android:title="대상폴더"
+            android:key="setting_target_folder"
+            android:selectable="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="경로지정"
+        android:key="setting_cat_cabinet_folder">
+        <Preference
+            android:title="추가"
+            android:key="setting_add_cabinet"
+            android:selectable="true" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
